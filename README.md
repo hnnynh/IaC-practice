@@ -42,3 +42,5 @@ terraform output -json instance_ips | jq -r '.[]' >> hosts.ini
 ```ansible-playbook -i hosts.ini playbook.yml```
     ➡️ nginx 설치 + 실행
 4. 인스턴스 접속 후 nginx 동작 확인
+
+- [Ansible CLI cheatsheet](https://docs.ansible.com/ansible/latest/command_guide/cheatsheet.html#)
